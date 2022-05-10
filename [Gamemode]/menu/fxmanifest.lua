@@ -1,0 +1,20 @@
+fx_version 'adamant'
+game 'gta5'
+
+author 'FRFlo'
+description 'Cars Freeroam Menu F1'
+version '1.0.0'
+
+server_scripts {
+	'@mysql-async/lib/MySQL.lua',
+	"server/**/*.lua",
+	"server/*.lua"
+}
+
+client_scripts {
+	"client/**/*.lua",
+	"client/*.lua",
+	
+	"src/**/*.lua",
+	"src/*.lua",
+}
